@@ -1,5 +1,8 @@
 [//]: # (Image References)
 [image1]: ./imgs/final-project-ros-graph-v2.png
+[image2]: ./imgs/sample1.png
+[image3]: ./imgs/sample2.png
+
 
 # System Integration Project
 ## This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car.
@@ -20,6 +23,12 @@ The major difference comparing to the article is that this project uses dataset 
 The second difference is that this implementation can run on Tensorflow 1.3 duo to initial requirements. Details how to make it Tensorflow 1.3 compatible is provided in "/training/readme.txt" file.
 
 The implementation uses [ssd_inception_v2_coco](http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz) pre-trained model.
+
+For actual training an **p2.xlarge** Amazon EC2 instance was used. Steps count is 5000.
+
+Here are some samples of detection:
+![Sample 1][image2]
+![Sample 2][image3]
 
 _The rest of original readme_
 
