@@ -1,0 +1,1 @@
+python object_detection/train.py --pipeline_config_path=config/ssd_inception_traffic_udacity_all.config --train_dir=data/all_training_data

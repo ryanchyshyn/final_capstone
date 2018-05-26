@@ -1,0 +1,1 @@
+python object_detection/export_inference_graph.py --pipeline_config_path=config/ssd_inception_traffic_udacity_all.config --trained_checkpoint_prefix=data/all_training_data/model.ckpt-5000 --output_directory=frozen_all/
