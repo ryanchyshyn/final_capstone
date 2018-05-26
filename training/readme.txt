@@ -1,4 +1,6 @@
-To perform training using Tensorflow 1.3 you will need Tensorflow 1.3 installed and running and the following:
+To perform training you will need to download and unpack training data: https://www.dropbox.com/s/vsxhs6qm3mk2dlq/data.zip?dl=0
+
+Also to perform training using Tensorflow 1.3 you will need Tensorflow 1.3 installed and running and the following things:
 1. Checkout "tensorflow/models" branch "r1.5"
 2. Apply the following patches:
 
