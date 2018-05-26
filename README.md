@@ -19,6 +19,8 @@ The major difference comparing to the article is that this project uses dataset 
 
 The second difference is that this implementation can run on Tensorflow 1.3 duo to initial requirements. Details how to make it Tensorflow 1.3 compatible is provided in "/training/readme.txt" file.
 
+The implementation uses [ssd_inception_v2_coco](http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz) pre-trained model.
+
 _The rest of original readme_
 
 Please use **one** of the two installation options, either native **or** docker installation.
