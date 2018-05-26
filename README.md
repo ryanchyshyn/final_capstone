@@ -1,4 +1,25 @@
-This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
+[//]: # (Image References)
+[image1]: ./imgs/final-project-ros-graph-v2.png
+
+# System Integration Project
+## This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car.
+
+### Implementation details
+The project consists of two parts:
+1. ROS modules implementation
+2. Traffic light detection implementation
+
+### ROS modules implementation
+In this project ROS modules implementation is based on project walkthrough hints. System Architecture is the following:
+![System Architecture][image1]
+
+### Traffic lights detection implementation
+Traffic lights detection implementation is based on [this article](https://becominghuman.ai/traffic-light-detection-tensorflow-api-c75fdbadac62) and thus it uses [Tensorflow Models and Object Detection API](https://github.com/tensorflow/models).
+The major difference comparing to the article is that this project uses dataset with both *simulator* and *real* images which makes possible to use unified model for any case.
+
+The second difference is that this implementation can run on Tensorflow 1.3 duo to initial requirements. Details how to make it Tensorflow 1.3 compatible is provided in "/training/readme.txt" file.
+
+_The rest of original readme_
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
